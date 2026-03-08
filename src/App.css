@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply bg-primary text-accent antialiased font-sans selection:bg-accent selection:text-primary;
+    }
+}
+
+header ul li {
+    @apply px-5 py-2 hover:text-white text-accent-muted transition duration-200 text-sm font-medium tracking-wide;
+}
+
+.mobile-nav {
+    @apply fixed top-16 left-0 bg-secondary/95 backdrop-blur-md w-full h-auto py-5 rounded-b-xl shadow-2xl z-50 flex flex-col justify-center items-center border-b border-white/5;
+}
+
+.mobile-nav li {
+    @apply w-full h-auto text-center border-b border-primary py-4 hover:bg-tertiary transition text-accent-muted;
+}
+
+.btn {
+    @apply inline-flex items-center justify-center bg-white text-black px-6 py-2.5 text-sm font-semibold rounded-full hover:bg-gray-200 hover:scale-105 transition transform duration-300;
+}
+
+.btn-outline {
+    @apply inline-flex items-center justify-center bg-transparent border border-primary text-accent px-6 py-2.5 text-sm font-semibold rounded-full hover:border-secondary hover:bg-tertiary hover:scale-105 transition transform duration-300 gap-2;
+}
+
+html {
+    scroll-behavior: smooth;
+}
