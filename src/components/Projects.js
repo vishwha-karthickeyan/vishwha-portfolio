@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { projectsData, projectCategories } from '../data/projects';
-import { ArrowUpRightIcon, FolderIcon, LockClosedIcon, PlusCircleIcon, DevicePhoneMobileIcon } from '@heroicons/react/24/outline';
+import { ArrowUpRightIcon, FolderIcon, LockClosedIcon, PlusCircleIcon } from '@heroicons/react/24/outline';
 
 export default function Projects() {
     const [activeTab, setActiveTab] = useState('All');

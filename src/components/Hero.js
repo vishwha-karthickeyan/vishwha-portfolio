@@ -1,4 +1,4 @@
-import { ArrowRightIcon, CpuChipIcon, ServerIcon, SparklesIcon, SignalIcon } from '@heroicons/react/24/outline';
+import { ArrowRightIcon, CpuChipIcon, SparklesIcon, SignalIcon } from '@heroicons/react/24/outline';
 
 export default function Hero() {
     const config = {
