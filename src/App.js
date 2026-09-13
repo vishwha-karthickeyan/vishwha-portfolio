@@ -7,12 +7,14 @@ import Projects from './components/Projects';
 
 function App() {
   return (
-    <div className="min-h-screen bg-primary text-accent selection:bg-accent selection:text-primary">
-        <Header/>
-        <Hero />
-        <About/>
-        <Projects/>
-        <Contact/>
+    <div className="min-h-screen bg-[#090a0f] text-accent selection:bg-emerald-500 selection:text-slate-950">
+        <Header />
+        <main>
+          <Hero />
+          <About />
+          <Projects />
+          <Contact />
+        </main>
     </div>
   );
 }
